@@ -1,0 +1,63 @@
+li a {
+    color: green;
+}
+
+body {
+    background: white url("/static/polls/images/background.jpg") no-repeat center center;
+    background-size: cover;
+}
+
+body {
+    background: white url("/static/polls/images/background.jpg") no-repeat center center;
+    background-size: cover;
+}
+header {
+    background: #4b3f72;
+    color: #fff;
+    padding: 30px 0;
+    text-align: center;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+}
+
+footer {
+    background: #4b3f72;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 40px auto;
+    max-width: 600px;
+}
+
+li {
+    background: #fff;
+    margin-bottom: 16px;
+    padding: 18px 24px;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(76,63,114,0.08);
+    transition: box-shadow 0.2s, transform 0.2s;
+}
+
+li:hover {
+    box-shadow: 0 4px 16px rgba(76,63,114,0.16);
+    transform: translateY(-2px) scale(1.02);
+}
+
+li a {
+    color: #4b3f72;
+    text-decoration: none;
+    font-size: 1.2em;
+    font-weight: bold;
+    transition: color 0.2s;
+}
+
+li a:hover {
+    color: #ff9800;
+}
